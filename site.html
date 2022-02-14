@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taimeris</title>
+  <script src="sitejs.js"></script>
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body text="#ECEFF4" style="background-color:#4C566A;">
+  <center>
+    <h1>Taimeris</h1>
+    <!-- Pārbaudīt 1. uzdevumu -->
+    <button onclick="text()">1.uzd</button>
+    <br>
+    <br>
+    <!-- 3. uzdevums -->
+    <p>Ir pagājušas jau <span id="result"></span> sekundes</p>
+    <!-- Pārbaudīt 2. un 3. uzdevumu -->
+    <button onclick="timepass()">2.uzd + 3. uzd</button>
+    <br>
+    <br>
+    <br>
+    <!-- 4. uzdevums -->
+    <p>Šis ir jau <span id="result0"></span> tikšķis</p>
+    <div class="btns">
+      <button onclick="timepass0()">START</button>
+      <button onclick="stop()">STOP</button>
+      <br> </div>
+    <br>
+    <!-- 5. uzdevums un 6. uzdevums -->
+    <form>
+      <div class="button" id="inc" onclick="inc()">INC</div>
+      <input type="number" id="number" backgroundColor="#ECEFF4" c="1">
+      <div class="button" id="dec" onclick="dec()">DEC</div>
+    </form>
+
+</html>
